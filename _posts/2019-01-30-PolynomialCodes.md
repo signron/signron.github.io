@@ -1,21 +1,21 @@
 ---
-layout:     post   				    # ʹ�õĲ��֣�����Ҫ�ģ�
-title:      ����ʽϵ���㷨���뼯				# ���� 
-subtitle:    #������
-date:       2019-1-30			# ʱ��
-author:     signron					# ����
-header-img: img/bg.jpg 	#��ƪ���±��ⱳ��ͼƬ
-catalog: true 						# �Ƿ�鵵
-tags:								#��ǩ
+layout:     post   				    # 使用的布局（不需要改）
+title:      多项式系列算法代码集				# 标题 
+subtitle:    #副标题
+date:       2019-1-30			# 时间
+author:     signron					# 作者
+header-img: img/bg.jpg 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
     - FFT
     - NTT
     - MTT
     - Codes
 ---
 
-## ����ʽ�˷�-FFT
+## 多项式乘法-FFT
 
-û��ģ����~~������NTTˮ��ȥ��~~
+没有模数，~~于是拿NTT水过去了~~
 
 ```cpp
 #include<cstdio>
@@ -86,9 +86,9 @@ int main() {
 }
 ```
 
-## ����ģ��NTT
+## 任意模数NTT
 
-ģ��:1e9+7
+模数:1e9+7
 
 ```cpp
 #include <cstdio>
@@ -182,9 +182,9 @@ int main() {
 }
 ```
 
-##����ʽ����-NTT
+##多项式求逆-NTT
 
-ģ��:998244353
+模数:998244353
 
 ```cpp
 #include <cstdio>
@@ -261,9 +261,9 @@ int main(){
 }
 ```
 
-## ����ʽ����-MTT
+## 多项式求逆-MTT
 
-ģ��:1e9+7��~~��ȻNTT+�����ܹ�~~
+模数:1e9+7，~~居然NTT+卡常能过~~
 
 ```cpp
 #include<bits/stdc++.h>
@@ -378,9 +378,9 @@ int main() {
 }
 ```
 
-## ����FFT
+## 分治FFT
 
-ģ��:998244353��~~�����ö���ʽ����ˮ��ȥ��~~
+模数:998244353，~~于是拿多项式求逆水过去了~~
 
 ```cpp
 #include <cstdio>
@@ -458,9 +458,9 @@ int main(){
 }
 ```
 
-## ����ʽ����-NTT
+## 多项式除法-NTT
 
-ģ��:998244353
+模数:998244353
 
 ```cpp
 #include <cstdio>
@@ -553,9 +553,9 @@ int main(){
 }
 ```
 
-����ʽ����-NTT
+多项式开根-NTT
 
-ģ��:988244353
+模数:988244353
 
 ```cpp
 #include<cstdio>
@@ -637,10 +637,10 @@ int main(){
 }
 ```
 
-## ����ʽ��������
+## 多项式对数函数
 
-���ӡ���
+留坑。。
 
-## ����ʽָ������
+## 多项式指数函数
 
-���ӡ���
+留坑。。
