@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      多项式系列算法代码集				# 标题 
 subtitle:   最近背背板子吧。。 #副标题
-date:       2019-1-30			# 时间
+date:       2019-01-30			# 时间
 author:     signron					# 作者
 header-img: img/bg.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
